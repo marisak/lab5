@@ -1,3 +1,5 @@
+/* LAB 5 - index.js */
+
 // Get all of our friend data
 var data = require('../data.json');
 

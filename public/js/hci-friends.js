@@ -1,5 +1,5 @@
 'use strict';
-
+/* LAB 5 - hci-friends.js */
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
 	initializePage();
@@ -12,8 +12,7 @@ function initializePage() {
 	console.log("Javascript connected!");
 }
 
-
-$("#").click(function(e) {
+$("a h3").click(function(e) {
 	e.preventDefault()
 
 	var origName = $(this).text(); 
@@ -23,8 +22,7 @@ $("#").click(function(e) {
 
 
 function anagrammedName(name) {
-	// Thanks, Internet Anagram Server!
-	
+	// Thanks, Internet Anagram Server!	
 
 	if (name == "Doug Engelbart") {
 		return "Notable Grudge";
